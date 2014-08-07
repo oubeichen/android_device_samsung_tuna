@@ -44,7 +44,7 @@ BOARD_KERNEL_BASE := 0x80000000
 TARGET_KERNEL_CONFIG := mokee_tuna_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/tuna
 
-TARGET_PREBUILT_KERNEL := device/samsung/tuna/kernel
+#TARGET_PREBUILT_KERNEL := device/samsung/tuna/kernel
 
 TARGET_NO_RADIOIMAGE := true
 TARGET_BOARD_PLATFORM := omap4
